@@ -1,0 +1,22 @@
+
+> my-v0-project@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.16
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1316ms
+ ○ Compiling /api/track-visit ...
+ ✓ Compiled /api/track-visit in 1301ms (149 modules)
+[Track Visit] Request received: { userAgent: 'test', referrer: 'test' }
+[Track Visit] Extracted IP: ::1
+[Track Visit] Invalid IP format, setting to null
+[Track Visit] Extracted platform: Unknown
+ POST /api/track-visit 200 in 2507ms
+ ✓ Compiled /api/admin/login in 239ms (151 modules)
+ POST /api/admin/login 200 in 328ms
+ ✓ Compiled /api/admin/analytics in 104ms (153 modules)
+ GET /api/admin/analytics?timeFilter=7d 200 in 843ms
+[?25h
