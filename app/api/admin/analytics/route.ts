@@ -1,8 +1,26 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { createServerSupabaseClient } from "@/lib/supabase"
+import { createServerSupabaseClient, isSupabaseConfigured } from "@/lib/supabase"
 
 export async function GET(request: NextRequest) {
   try {
+    // Check authentication
+    const sessionCookie = request.cookies.get("admin_session")
+    if (!sessionCookie || sessionCookie.value !== "authenticated") {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+    }
+
+    // Check if Supabase is configured
+    if (!isSupabaseConfigured()) {
+      return NextResponse.json(
+        {
+          error: "SUPABASE_NOT_CONFIGURED",
+          message:
+            "Supabase is not configured. Please set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY environment variables in your Vercel project settings or .env.local file.",
+        },
+        { status: 503 },
+      )
+    }
+
     const { searchParams } = new URL(request.url)
     const timeFilter = searchParams.get("timeFilter") || "7d"
 

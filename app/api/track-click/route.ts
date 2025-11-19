@@ -1,10 +1,16 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { createServerSupabaseClient } from "@/lib/supabase"
+import { createServerSupabaseClient, isSupabaseConfigured } from "@/lib/supabase"
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
     const { linkName, url, userAgent, referrer } = body
+
+    // If Supabase is not configured, just return success
+    if (!isSupabaseConfigured()) {
+      console.log("[Track Click] Supabase not configured, skipping tracking")
+      return NextResponse.json({ success: true })
+    }
 
     const supabase = await createServerSupabaseClient()
 
@@ -27,14 +33,17 @@ export async function POST(request: NextRequest) {
       })
 
       if (error) {
+        console.log("[Track Click] Database error:", error.message)
         return NextResponse.json({ success: true })
       }
 
       return NextResponse.json({ success: true })
     } catch (dbError) {
+      console.log("[Track Click] Error:", dbError)
       return NextResponse.json({ success: true })
     }
   } catch (error) {
+    console.log("[Track Click] Request error:", error)
     return NextResponse.json({ success: true })
   }
 }
