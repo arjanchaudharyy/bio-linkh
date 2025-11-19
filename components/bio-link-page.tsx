@@ -135,8 +135,7 @@ export function BioLinkPage() {
           <h1 className="text-2xl font-bold mb-2 text-balance">Arjan Chaudhary</h1>
 
           <p className="text-gray-400 text-sm leading-relaxed text-pretty">
-            {age} yo | offsec researcher @stealth | co-founder @GlowTech | into startups | backed by HCB | 1x CVE | ACP
-            | CASA
+            Just Turned {age} yo | security engineer @ stealth | into startups | bug bounty hunter | co founder @ glowtech | ACP | CASA | COSJ | CCEP | 1x CVE | braces suck sm !!! 
           </p>
         </div>
 
