@@ -83,7 +83,7 @@ export function AdminDashboard() {
 
   const loadAnalytics = async () => {
     try {
-      console.log("[v0] Loading analytics...")
+      console.log("[Admin] Loading analytics...")
       const response = await fetch(`/api/admin/analytics?timeFilter=${timeFilter}`)
 
       if (!response.ok) {
@@ -93,8 +93,9 @@ export function AdminDashboard() {
         }
 
         const errorData = await response.json()
-        console.error("[v0] Analytics API error:", errorData)
-        if (errorData.error === "DATABASE_NOT_SETUP") {
+        console.error("[Admin] Analytics API error:", errorData)
+        
+        if (errorData.error === "SUPABASE_NOT_CONFIGURED" || errorData.error === "DATABASE_NOT_SETUP") {
           setDatabaseNotSetup(true)
           setAnalytics({
             totalClicks: 0,
@@ -112,11 +113,11 @@ export function AdminDashboard() {
       }
 
       const data = await response.json()
-      console.log("[v0] Analytics loaded successfully")
+      console.log("[Admin] Analytics loaded successfully")
       setAnalytics(data)
       setDatabaseNotSetup(false)
     } catch (error) {
-      console.error("[v0] Failed to load analytics:", error)
+      console.error("[Admin] Failed to load analytics:", error)
       setAnalytics({
         totalClicks: 0,
         totalVisits: 0,
@@ -252,33 +253,39 @@ export function AdminDashboard() {
         {databaseNotSetup && (
           <Card className="mb-8 border-yellow-500 bg-yellow-50 dark:bg-yellow-950">
             <CardHeader>
-              <CardTitle className="text-yellow-900 dark:text-yellow-100">Database Setup Required</CardTitle>
+              <CardTitle className="text-yellow-900 dark:text-yellow-100">Setup Required</CardTitle>
               <CardDescription className="text-yellow-800 dark:text-yellow-200">
-                Analytics tables haven't been created yet. Follow these steps to set up your database:
+                Analytics tracking is not configured yet. Follow these steps:
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-2 text-sm text-yellow-900 dark:text-yellow-100">
-              <p className="font-medium">Run these SQL scripts in order:</p>
-              <ol className="list-decimal list-inside space-y-1 ml-2">
-                <li>
-                  <code className="bg-yellow-100 dark:bg-yellow-900 px-2 py-1 rounded">
-                    scripts/01-create-analytics-tables.sql
-                  </code>
-                </li>
-                <li>
-                  <code className="bg-yellow-100 dark:bg-yellow-900 px-2 py-1 rounded">
-                    scripts/03-add-page-visits-tracking.sql
-                  </code>
-                </li>
-                <li>
-                  <code className="bg-yellow-100 dark:bg-yellow-900 px-2 py-1 rounded">
-                    scripts/04-add-performance-indexes.sql
-                  </code>
-                </li>
-              </ol>
-              <p className="mt-4">
-                Click the "Run Script" button in the v0 UI for each file, then refresh this page to see your analytics.
-              </p>
+            <CardContent className="space-y-4 text-sm text-yellow-900 dark:text-yellow-100">
+              <div>
+                <p className="font-medium mb-2">1. Configure Supabase (if not already done):</p>
+                <ul className="list-disc list-inside space-y-1 ml-4">
+                  <li>Create a Supabase project at <a href="https://supabase.com" target="_blank" rel="noopener noreferrer" className="underline">supabase.com</a></li>
+                  <li>Get your project URL and anon key from Settings → API</li>
+                  <li>Add these to your Vercel environment variables:
+                    <ul className="list-circle list-inside ml-4 mt-1">
+                      <li><code className="bg-yellow-100 dark:bg-yellow-900 px-1 py-0.5 rounded">NEXT_PUBLIC_SUPABASE_URL</code></li>
+                      <li><code className="bg-yellow-100 dark:bg-yellow-900 px-1 py-0.5 rounded">NEXT_PUBLIC_SUPABASE_ANON_KEY</code></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              
+              <div>
+                <p className="font-medium mb-2">2. Run SQL scripts in your Supabase SQL Editor:</p>
+                <ol className="list-decimal list-inside space-y-1 ml-4">
+                  <li><code className="bg-yellow-100 dark:bg-yellow-900 px-2 py-1 rounded">scripts/01-create-analytics-tables.sql</code></li>
+                  <li><code className="bg-yellow-100 dark:bg-yellow-900 px-2 py-1 rounded">scripts/03-add-page-visits-tracking.sql</code></li>
+                  <li><code className="bg-yellow-100 dark:bg-yellow-900 px-2 py-1 rounded">scripts/04-add-performance-indexes.sql</code></li>
+                </ol>
+              </div>
+
+              <div>
+                <p className="font-medium">3. Redeploy your Vercel app or restart your dev server</p>
+                <p className="text-xs mt-1 opacity-80">Analytics will start tracking once everything is configured.</p>
+              </div>
             </CardContent>
           </Card>
         )}

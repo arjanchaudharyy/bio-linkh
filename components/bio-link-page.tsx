@@ -119,8 +119,6 @@ export function BioLinkPage() {
         referrer: document.referrer,
       }),
     }).catch(() => {})
-
-    window.open(url, "_blank", "noopener,noreferrer")
   }
 
   const handleEmailClick = () => {
@@ -160,12 +158,16 @@ export function BioLinkPage() {
           {links.map((link) => (
             <Card
               key={link.name}
-              className="bg-gray-900 border-gray-800 p-0 overflow-hidden hover:bg-gray-800 transition-colors"
+              className="bg-gray-900 border-gray-800 p-0 overflow-hidden hover:bg-gray-800 transition-colors cursor-pointer"
             >
-              <Button
-                variant="ghost"
-                className="w-full h-auto p-4 justify-start text-left hover:bg-transparent"
-                onClick={() => handleLinkClick(link.name, link.url)}
+              <a
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full p-4 no-underline"
+                onClick={(e) => {
+                  handleLinkClick(link.name, link.url)
+                }}
               >
                 <div className="flex items-center gap-4 w-full">
                   <div className="flex-shrink-0 text-white">{link.icon}</div>
@@ -174,7 +176,7 @@ export function BioLinkPage() {
                   </div>
                   <ChevronRight className="w-5 h-5 text-gray-400 flex-shrink-0" />
                 </div>
-              </Button>
+              </a>
             </Card>
           ))}
         </div>
