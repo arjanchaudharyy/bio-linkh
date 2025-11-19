@@ -3,6 +3,12 @@ import { createServerSupabaseClient } from "@/lib/supabase"
 
 export async function GET(request: NextRequest) {
   try {
+    // Check authentication
+    const sessionCookie = request.cookies.get("admin_session")
+    if (!sessionCookie || sessionCookie.value !== "authenticated") {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+    }
+
     const { searchParams } = new URL(request.url)
     const timeFilter = searchParams.get("timeFilter") || "7d"
 

@@ -51,6 +51,7 @@ export function AdminDashboard() {
   const [analytics, setAnalytics] = useState<AnalyticsData | null>(null)
   const [timeFilter, setTimeFilter] = useState("7d")
   const [databaseNotSetup, setDatabaseNotSetup] = useState(false)
+  const [checkingAuth, setCheckingAuth] = useState(true)
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -86,6 +87,11 @@ export function AdminDashboard() {
       const response = await fetch(`/api/admin/analytics?timeFilter=${timeFilter}`)
 
       if (!response.ok) {
+        if (response.status === 401) {
+          setIsAuthenticated(false)
+          return
+        }
+
         const errorData = await response.json()
         console.error("[v0] Analytics API error:", errorData)
         if (errorData.error === "DATABASE_NOT_SETUP") {
@@ -124,16 +130,51 @@ export function AdminDashboard() {
     }
   }
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
+    try {
+      await fetch("/api/admin/login", {
+        method: "DELETE",
+      })
+    } catch (error) {
+      console.error("Logout error:", error)
+    }
     setIsAuthenticated(false)
     setAnalytics(null)
   }
+
+  useEffect(() => {
+    const checkAuth = async () => {
+      try {
+        const response = await fetch("/api/admin/analytics?timeFilter=7d")
+        if (response.ok) {
+          setIsAuthenticated(true)
+        }
+      } catch (error) {
+        console.error("Auth check failed:", error)
+      } finally {
+        setCheckingAuth(false)
+      }
+    }
+
+    checkAuth()
+  }, [])
 
   useEffect(() => {
     if (isAuthenticated) {
       loadAnalytics()
     }
   }, [timeFilter, isAuthenticated])
+
+  if (checkingAuth) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
+          <p>Checking authentication...</p>
+        </div>
+      </div>
+    )
+  }
 
   if (!isAuthenticated) {
     return (
