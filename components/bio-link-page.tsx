@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
@@ -55,6 +55,8 @@ const links: LinkData[] = [
 export function BioLinkPage() {
   const [clickedLinks, setClickedLinks] = useState<Set<string>>(new Set())
   const [age, setAge] = useState("")
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
+  const torchRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const calculateAge = () => {
@@ -72,6 +74,15 @@ export function BioLinkPage() {
     }, 50) // Update every 50ms instead of 1000ms for constantly changing age
 
     return () => clearInterval(interval)
+  }, [])
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      setMousePosition({ x: e.clientX, y: e.clientY })
+    }
+
+    window.addEventListener("mousemove", handleMouseMove)
+    return () => window.removeEventListener("mousemove", handleMouseMove)
   }, [])
 
   useEffect(() => {
@@ -93,24 +104,23 @@ export function BioLinkPage() {
     trackPageVisit()
   }, [])
 
-  const handleLinkClick = async (linkName: string, url: string) => {
-    window.open(url, "_blank", "noopener,noreferrer")
+  const handleLinkClick = (linkName: string, url: string) => {
     setClickedLinks((prev) => new Set(prev).add(linkName))
 
-    try {
-      await fetch("/api/track-click", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          linkName,
-          url,
-          userAgent: navigator.userAgent,
-          referrer: document.referrer,
-        }),
-      })
-    } catch (error) {}
+    fetch("/api/track-click", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        linkName,
+        url,
+        userAgent: navigator.userAgent,
+        referrer: document.referrer,
+      }),
+    }).catch(() => {})
+
+    window.open(url, "_blank", "noopener,noreferrer")
   }
 
   const handleEmailClick = () => {
@@ -118,8 +128,15 @@ export function BioLinkPage() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white">
-      <div className="container mx-auto px-4 py-8 max-w-md">
+    <div className="min-h-screen bg-black text-white relative overflow-hidden">
+      <div
+        ref={torchRef}
+        className="pointer-events-none fixed inset-0 z-0 transition-opacity duration-300"
+        style={{
+          background: `radial-gradient(circle 600px at ${mousePosition.x}px ${mousePosition.y}px, rgba(59, 130, 246, 0.15), transparent 80%)`,
+        }}
+      />
+      <div className="container mx-auto px-4 py-8 max-w-md relative z-10">
         {/* Profile Section */}
         <div className="text-center mb-8">
           <div className="relative w-32 h-32 mx-auto mb-6">
