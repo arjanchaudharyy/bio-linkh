@@ -1,0 +1,223 @@
+# humanstxt.org
+
+/* TEAM */
+
+Creator & Developer: Arjan Chaudhary
+Role: Security Engineer, Offensive Security Researcher, Entrepreneur
+Social: @arjanchaudharyy (Instagram, Twitter/X)
+LinkedIn: https://www.linkedin.com/in/arjan-chaudhary-7a3108361/
+Location: Nepal
+Website: https://arjan.lol
+
+/* ABOUT */
+
+Title: Arjan Chaudhary - Security Researcher & Entrepreneur Bio Links
+Description: Official bio link page and digital portfolio of one of the youngest security researchers globally
+Launch Date: 2024
+Purpose: Central hub for all professional links and social media profiles
+
+/* ACHIEVEMENTS */
+
+Security Research:
+- Hacked Google at age 14 (discovered critical security vulnerability)
+- #2 in Twitch's Security Hall of Fame
+- Youngest researcher assigned a CVE (Common Vulnerabilities and Exposures)
+- Youngest Security Researcher of Nepal
+- Former Offensive Security Researcher at Cyber Alert Nepal
+- Multiple hall of fame recognitions from major tech companies
+- Conducted internal pentests and API security audits
+- Developed PoCs to remediate critical vulnerabilities
+
+Community Leadership:
+- Founded Arniko Hack Club with 400+ active teen members
+- Organized Asia's largest teen hackathon (Day Dream Biratnagar)
+- Partnered with APIsec University for free $325+ certifications
+- Empowering next generation of security researchers
+
+Entrepreneurship:
+- Co-founded Glow Tech
+- Scaled digital campaigns to 20M+ views
+- Achieved five-figure monthly revenue
+- Built sustainable tech business as a teenager
+
+/* CERTIFICATIONS */
+
+- ACP (API Security Certified Professional) - APIsec University
+- CASA Certification
+- Various security training and workshops
+
+/* SKILLS */
+
+Security:
+- Offensive Security & Penetration Testing
+- Web Application Security (OWASP Top 10)
+- API Security (REST, GraphQL)
+- Vulnerability Research & Exploit Development
+- Bug Bounty Hunting
+- Security Auditing & Code Review
+- Ethical Hacking
+- Network Security
+- Mobile Application Security
+
+Technology:
+- Programming (Python, JavaScript, TypeScript)
+- Security Tools (Burp Suite, Metasploit, OWASP ZAP)
+- Web Development (Next.js, React, Node.js)
+- Database (SQL, PostgreSQL, Supabase)
+- Cloud Security (AWS, GCP, Azure)
+- DevOps & CI/CD Security
+
+Business:
+- Digital Marketing & Growth
+- Social Media Marketing
+- Content Strategy
+- Startup Development
+- Community Building
+- Public Speaking
+- Tech Leadership
+
+/* TECH STACK */
+
+Framework: Next.js 14 (React)
+Language: TypeScript
+Styling: Tailwind CSS v4
+Backend: Next.js API Routes
+Database: Supabase (PostgreSQL)
+Analytics: Vercel Analytics + Custom Analytics
+Hosting: Vercel
+UI Library: Radix UI + shadcn/ui
+Authentication: Cookie-based sessions
+Performance: Server-Side Rendering, Edge Functions
+
+/* FEATURES */
+
+- Interactive bio link hub with all social media links
+- Custom torch cursor effect following mouse movement
+- Admin analytics dashboard (page visits, link clicks, traffic sources)
+- Responsive design (mobile-first)
+- Dark mode support
+- SEO optimized with structured data
+- Privacy-focused analytics
+- Graceful degradation (works without database)
+- Fast loading and optimized performance
+
+/* ORGANIZATIONS */
+
+Current:
+- Stealth (Security Engineer, Full-time)
+- Arniko Hack Club (Founder & Lead)
+- Glow Tech (Co-Founder)
+
+Former:
+- Cyber Alert Nepal (Offensive Security Researcher)
+
+/* PROJECTS */
+
+Arniko Hack Club:
+- Website: https://daydreambiratnagar.com
+- Community of 400+ active teen members
+- Free ACP certifications worth $325+ per member
+- Regular workshops, CTFs, and training sessions
+
+Day Dream Biratnagar:
+- Asia's largest teen hackathon
+- Hundreds of participants
+- Multiple sponsors and partners
+- Created opportunities for youth in tech
+
+Glow Tech:
+- Digital marketing agency
+- 20M+ cumulative views across campaigns
+- Five-figure monthly revenue
+- Successful client campaigns across industries
+
+/* CONTACT */
+
+Websites:
+- https://arjan.lol (primary bio links)
+- https://arjanchaudharyy.lol (alternative domain)
+- https://arjanchaudharyy.netlify.app (portfolio)
+- https://daydreambiratnagar.com (Arniko Hack Club)
+
+Social Media:
+- Instagram: @arjanchaudharyy
+- Twitter/X: @arjanchaudharyy
+- LinkedIn: linkedin.com/in/arjan-chaudhary-7a3108361
+
+For Collaboration:
+- Security research and vulnerability disclosure
+- Speaking engagements and workshops
+- Community partnerships and mentorship
+- Digital marketing services (Glow Tech)
+- Consulting and advisory
+
+/* RECOGNITION */
+
+Hall of Fame:
+- Google Security Credits (vulnerability reporting)
+- Twitch Security Hall of Fame #2
+- CVE Program Recognition
+- Various bug bounty program acknowledgments
+
+Media & Speaking:
+- Featured in cybersecurity discussions
+- Tech conference speaker
+- Community event panelist
+- Educational institution guest lecturer
+
+Awards & Titles:
+- Youngest Security Researcher of Nepal
+- One of youngest global security researchers
+- Youngest researcher assigned a CVE
+- Recognized for hacking Google at age 14
+
+/* PHILOSOPHY */
+
+Mission: Empowering the next generation of security researchers and entrepreneurs while making cybersecurity education accessible to youth in Nepal and South Asia.
+
+Values:
+- Responsible Disclosure (ethical vulnerability reporting)
+- Continuous Learning (staying updated with latest security trends)
+- Knowledge Sharing (helping others learn security research)
+- Youth Empowerment (creating opportunities for young people)
+- Ethical Standards (maintaining highest ethical standards in all work)
+- Community Building (fostering inclusive tech communities)
+- Innovation (applying creative solutions to challenges)
+
+Vision: Build world-class tech community in South Asia, make cybersecurity education accessible to all, and inspire the next generation of security researchers and entrepreneurs.
+
+/* KEYWORDS */
+
+Security Research, Ethical Hacking, Bug Bounty, Penetration Testing, Offensive Security, Vulnerability Research, CVE, Google Hacker, Twitch Hall of Fame, Nepal Cybersecurity, Youngest Researcher, API Security, Web Application Security, Security Engineer, Cyber Alert Nepal, Arniko Hack Club, Glow Tech, Teen Entrepreneur, Community Leader, Digital Marketing, Hackathon Organizer, APIsec University, ACP Certified, CASA Certified, Day Dream Biratnagar, South Asian Tech, Youth Empowerment, Tech Leadership, Startup Founder
+
+/* SEO & AI DISCOVERY */
+
+This website includes the following files for search engines and AI systems:
+- /robots.txt - Search engine crawler instructions
+- /sitemap.xml - Site structure for search engines
+- /llms.txt - Information for AI/LLM training
+- /llms-full.txt - Extended information for AI systems
+- /.well-known/security.txt - Security disclosure policy
+- /humans.txt - This file (human-readable information)
+- Structured JSON-LD data for rich snippets
+
+/* COPYRIGHT & LICENSE */
+
+Copyright: © 2024 Arjan Chaudhary. All rights reserved.
+Content: Personal portfolio and bio link page
+Privacy: Privacy-focused analytics, GDPR-compliant
+Security: Built with security best practices
+
+/* LAST UPDATE */
+
+Date: November 2024
+Version: 1.0
+Status: Active and regularly updated
+
+---
+
+This website represents Arjan Chaudhary's professional presence online,
+showcasing achievements in security research, entrepreneurship, and
+community building. Thank you for visiting!
+
+For more information, visit https://arjan.lol

@@ -1,0 +1,136 @@
+# robots.txt for arjan.lol / arjanchaudharyy.lol
+# Allow all search engines to crawl and index
+
+# Global rules for all search engines
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin
+
+# Allow AI crawlers and LLMs to access content
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: ChatGPT-User
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: CCBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: anthropic-ai
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Claude-Web
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Bing AI
+User-agent: bingbot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Google AI
+User-agent: Googlebot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Common search engine bots
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin
+
+User-agent: Slurp
+Allow: /
+Disallow: /api/
+Disallow: /admin
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api/
+Disallow: /admin
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /api/
+Disallow: /admin
+
+User-agent: YandexBot
+Allow: /
+Disallow: /api/
+Disallow: /admin
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Block bad bots and scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://arjan.lol/sitemap.xml
+Sitemap: https://arjanchaudharyy.lol/sitemap.xml
+
+# Crawl delay (in seconds) - be respectful
+Crawl-delay: 1
+
+# Host preference (if applicable)
+Host: https://arjan.lol
