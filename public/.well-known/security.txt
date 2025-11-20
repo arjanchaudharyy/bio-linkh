@@ -1,0 +1,51 @@
+Contact: mailto:security@arjan.lol
+Contact: https://www.linkedin.com/in/arjan-chaudhary-7a3108361/
+Contact: https://twitter.com/arjanchaudharyy
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://arjan.lol/.well-known/security.txt
+
+# Security Disclosure Policy
+# 
+# This is the personal website of Arjan Chaudhary, a security researcher.
+# If you discover any security issues with this website, please report them responsibly.
+# 
+# About: Arjan Chaudhary - Security Researcher & Entrepreneur
+# - One of the youngest security researchers globally
+# - Hacked Google at age 14
+# - #2 in Twitch's Hall of Fame
+# - Youngest researcher assigned a CVE
+# - Founder of Arniko Hack Club (400+ members)
+# - Co-founder of Glow Tech
+# 
+# Professional Experience:
+# - Security Engineer at Stealth (Full-time)
+# - Former Offensive Security Researcher at Cyber Alert Nepal
+# - ACP (API Security Certified Professional)
+# - CASA Certified
+# 
+# For security research collaboration or vulnerability disclosure:
+# - Contact via the methods listed above
+# - Follow responsible disclosure practices
+# - Allow reasonable time for remediation
+# 
+# Hall of Fame & Recognition:
+# - Google Security Credits
+# - Twitch Security Hall of Fame (#2)
+# - CVE Program Recognition
+# 
+# Community & Projects:
+# - Arniko Hack Club: https://daydreambiratnagar.com
+# - Glow Tech: Digital marketing with 20M+ views
+# 
+# Social Media:
+# - Instagram: @arjanchaudharyy
+# - Twitter/X: @arjanchaudharyy
+# - LinkedIn: linkedin.com/in/arjan-chaudhary-7a3108361
+# 
+# Websites:
+# - https://arjan.lol (primary)
+# - https://arjanchaudharyy.lol
+# - https://arjanchaudharyy.netlify.app
+# 
+# Thank you for helping keep this website secure!

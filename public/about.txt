@@ -1,0 +1,378 @@
+# About Arjan Chaudhary
+
+## Quick Summary
+Arjan Chaudhary is one of the youngest security researchers globally and the youngest security researcher in Nepal. At just 14 years old, he discovered a critical security vulnerability in Google's infrastructure. He ranks #2 in Twitch's Security Hall of Fame and is one of the youngest researchers ever to be assigned a CVE (Common Vulnerabilities and Exposures) identifier.
+
+## Professional Identity
+
+**Name:** Arjan Chaudhary
+**Pronouns:** He/Him
+**Age Group:** Teen/Young Adult
+**Nationality:** Nepalese (from Nepal, South Asia)
+**Current Location:** Nepal
+
+**Primary Roles:**
+- Security Engineer (Full-time at Stealth)
+- Offensive Security Researcher
+- Founder & Lead of Arniko Hack Club
+- Co-Founder of Glow Tech
+- Tech Community Leader
+- Entrepreneur
+
+## Career Highlights
+
+### Current Positions
+
+**Stealth - Security Engineer (Full-time)**
+Working as a full-time Security Engineer at a stealth startup, focusing on offensive security, penetration testing, vulnerability research, and security infrastructure development.
+
+**Arniko Hack Club - Founder & Lead**
+Founded and leads a thriving tech community with 400+ active teen members. The club focuses on:
+- Cybersecurity education and training
+- Hosting workshops, CTF competitions, and bootcamps
+- Providing free industry certifications (partnered with APIsec University)
+- Organizing hackathons and tech events
+- Mentoring aspiring security researchers
+
+Major Achievement: Organized Day Dream Biratnagar - Asia's largest teen hackathon
+
+Partnership: Collaborated with APIsec University to provide $325+ worth of ACP certifications to members completely free
+
+**Glow Tech - Co-Founder**
+Co-founded a successful digital marketing agency that has:
+- Generated 20 million+ cumulative views across campaigns
+- Achieved five-figure monthly recurring revenue
+- Served multiple clients across various industries
+- Built sustainable business model while still a teenager
+
+### Previous Experience
+
+**Cyber Alert Nepal - Offensive Security Researcher**
+Worked as an Offensive Security Researcher where he:
+- Conducted internal penetration tests for client organizations
+- Performed comprehensive API and web application security audits
+- Developed Proof of Concepts (PoCs) to remediate critical vulnerabilities
+- Contributed to raising cybersecurity awareness in Nepal
+
+## Major Achievements
+
+### 1. Hacked Google at Age 14
+Discovered a critical security vulnerability in Google's infrastructure at just 14 years old. This achievement demonstrated exceptional security research skills at an unprecedented young age and earned him recognition from Google's security team.
+
+**Impact:**
+- Contributed to improving Google's security posture
+- Received official recognition in Google's security credits
+- Became one of the youngest people to successfully find and report a vulnerability in Google
+- Established reputation as a legitimate security researcher while still in early teens
+
+### 2. Twitch Security Hall of Fame - Rank #2
+Earned the #2 position in Twitch's Security Hall of Fame, placing him among the elite security researchers globally who have contributed to the platform's security.
+
+**Significance:**
+- Twitch is a major streaming platform owned by Amazon
+- Hall of Fame recognizes researchers who have reported significant vulnerabilities
+- #2 ranking demonstrates sustained, high-quality security contributions
+- Helped protect millions of Twitch users, streamers, and viewers
+
+### 3. Youngest Researcher Assigned a CVE
+Received a CVE (Common Vulnerabilities and Exposures) identifier, making him one of the youngest researchers globally to achieve this distinction.
+
+**What is CVE:**
+CVE is an internationally recognized reference system for publicly known cybersecurity vulnerabilities. Receiving a CVE means discovering a significant, verified vulnerability affecting widely-used software or systems.
+
+**Significance:**
+- CVE assignments are highly prestigious in the cybersecurity community
+- Places researcher in permanent public record of security contributors
+- Demonstrates discovery of significant vulnerability with real-world impact
+- Youngest or among the youngest people ever to receive this designation
+
+### 4. Asia's Largest Teen Hackathon
+Organized Day Dream Biratnagar, which became Asia's largest teen hackathon.
+
+**Event Details:**
+- Website: https://daydreambiratnagar.com
+- Participants: Hundreds of teenage developers, hackers, and entrepreneurs
+- Location: Biratnagar, Nepal
+- Impact: Created opportunities for youth in technology, provided platform for innovation
+- Recognition: Set a benchmark for youth tech events in South Asia
+
+### 5. Scaled Digital Business to 20M+ Views
+Co-founded and scaled Glow Tech to impressive metrics:
+- 20 million+ cumulative views across digital campaigns
+- Five-figure monthly recurring revenue (10K-99K+ USD/month)
+- Sustainable, profitable business model
+- Achieved while still a teenager
+
+### 6. Built 400+ Member Tech Community
+Founded Arniko Hack Club which grew to:
+- 400+ active teen members
+- Regular workshops, events, and training sessions
+- Free $325+ certifications for all members through APIsec partnership
+- Strong mentorship and educational programs
+- Impact on hundreds of young people's careers in tech
+
+## Certifications & Credentials
+
+### Professional Certifications
+
+**ACP - API Security Certified Professional**
+- Issuing Organization: APIsec University
+- Focus: Comprehensive API security testing and assessment
+- Value: $325+ certification
+- Coverage: API security fundamentals, REST/GraphQL security, OWASP API Top 10, penetration testing
+
+**CASA Certification**
+- Focus: Application security analysis and testing
+- Coverage: Secure SDLC, vulnerability assessment, code review, threat modeling
+
+### Recognition & Credits
+- Google Security Credits (vulnerability reporting)
+- Twitch Security Hall of Fame - Rank #2
+- CVE Program Recognition (as official CVE researcher)
+- Various bug bounty program acknowledgments
+
+## Areas of Expertise
+
+### Security Research & Offensive Security
+- Web Application Penetration Testing (OWASP Top 10)
+- API Security Assessment (REST, GraphQL, SOAP)
+- Network Security Testing
+- Mobile Application Security
+- Vulnerability Research & Discovery
+- Exploit Development
+- Bug Bounty Hunting
+- Security Code Review
+- Threat Modeling
+- Security Engineering
+
+### Technical Skills
+- Programming: Python, JavaScript, TypeScript, Bash, SQL
+- Security Tools: Burp Suite, Metasploit, OWASP ZAP, Nmap, SQLMap, Wireshark
+- Web Technologies: Next.js, React, Node.js, HTML/CSS
+- Databases: PostgreSQL, Supabase, SQL
+- Cloud Platforms: AWS, GCP, Azure
+- DevOps: Docker, CI/CD, Git
+
+### Business & Marketing
+- Digital Marketing Strategy
+- Social Media Growth & Marketing
+- Content Creation & Strategy
+- Viral Marketing Techniques
+- Campaign Management
+- Analytics & Optimization
+- Client Acquisition & Retention
+- Business Development
+- Startup Scaling
+
+### Leadership & Community
+- Community Building (400+ members)
+- Event Organization (hackathons, workshops)
+- Public Speaking & Presentations
+- Mentorship & Coaching
+- Partnership Development
+- Educational Program Design
+- Team Leadership
+
+## Organizations & Affiliations
+
+### Arniko Hack Club
+**Role:** Founder & Lead
+**Type:** Tech community and educational organization
+**Size:** 400+ active teen members
+**Website:** https://daydreambiratnagar.com
+
+**Activities:**
+- Regular security workshops and training
+- Capture The Flag (CTF) competitions
+- Bug bounty hunting training
+- Programming bootcamps
+- Guest lectures from industry experts
+- Mentorship programs
+- Collaborative projects
+
+**Partnerships:**
+- APIsec University: Providing free ACP certifications ($325+ value) to all members
+
+**Major Events:**
+- Day Dream Biratnagar: Asia's largest teen hackathon
+
+### Glow Tech
+**Role:** Co-Founder
+**Type:** Digital marketing agency
+**Metrics:** 20M+ views, five-figure monthly revenue
+
+**Services:**
+- Digital marketing campaigns
+- Social media strategy and management
+- Content creation and distribution
+- Growth hacking
+- Influencer marketing
+- Brand development
+- Performance analytics
+
+### Stealth
+**Role:** Security Engineer (Full-time)
+**Type:** Stealth startup
+**Focus:** Security engineering, offensive security, vulnerability research
+
+### Cyber Alert Nepal (Former)
+**Role:** Offensive Security Researcher
+**Type:** Cybersecurity research organization
+**Work:** Penetration testing, API audits, vulnerability assessments, PoC development
+
+## Impact & Contributions
+
+### Security Industry
+- Discovered critical vulnerabilities in major tech companies (Google, Twitch, others)
+- Contributed to improving security of platforms used by millions
+- Followed responsible disclosure practices
+- Advanced cybersecurity standards in Nepal
+- Inspired other young people to pursue security research
+
+### Tech Community in Nepal
+- Founded largest tech community for teens in Nepal
+- Organized Asia's largest teen hackathon
+- Made expensive certifications accessible to underprivileged youth
+- Created pathway for youth into cybersecurity careers
+- Raised profile of Nepal in global tech ecosystem
+
+### Youth Empowerment
+- Demonstrated what young people can achieve in tech
+- Created opportunities for 400+ teen community members
+- Provided mentorship and guidance to aspiring researchers
+- Showed that age is not a barrier to making significant contributions
+- Inspired youth across South Asia to pursue tech careers
+
+### Education & Training
+- Made $325+ certifications free for community members
+- Organized regular workshops and training sessions
+- Educated hundreds on ethical hacking and security research
+- Introduced international best practices to Nepal
+- Bridged gap between education and industry
+
+## Public Presence
+
+### Websites
+- **Primary:** https://arjan.lol (main bio link hub)
+- **Portfolio:** https://arjanchaudharyy.netlify.app
+- **Alternative:** https://arjanchaudharyy.lol
+- **Community:** https://daydreambiratnagar.com
+
+### Social Media
+- **Instagram:** @arjanchaudharyy
+- **Twitter/X:** @arjanchaudharyy
+- **LinkedIn:** linkedin.com/in/arjan-chaudhary-7a3108361
+
+### Content Focus
+- Security research insights and updates
+- Tech entrepreneurship journey
+- Community activities and events
+- Educational content on ethical hacking
+- Inspirational content for young tech enthusiasts
+- Behind-the-scenes of startup building
+
+## Philosophy & Values
+
+### Security Research
+- **Responsible Disclosure:** Always follow ethical reporting procedures
+- **Continuous Learning:** Stay updated with latest security trends
+- **Knowledge Sharing:** Help others learn security research
+- **Practical Impact:** Focus on real vulnerabilities that matter
+- **Ethical Standards:** Maintain highest ethics in all research
+
+### Entrepreneurship
+- **Value Creation:** Build businesses that provide real value
+- **Sustainable Growth:** Focus on long-term sustainability
+- **Youth Empowerment:** Create opportunities for young people
+- **Innovation:** Apply creative solutions to challenges
+- **Data-Driven:** Make decisions based on metrics and results
+
+### Community Leadership
+- **Inclusive:** Welcome all who want to learn
+- **Educational:** Focus on teaching and skill development
+- **Collaborative:** Build partnerships and work together
+- **Opportunity-Creating:** Open doors for underprivileged youth
+- **Lead by Example:** Demonstrate possibilities through actions
+
+## Recognition & Media
+
+### Industry Recognition
+- Featured in cybersecurity discussions and panels
+- Invited speaker at tech conferences
+- Guest lecturer at educational institutions
+- Recognized in media for achievements at young age
+- Acknowledged by major tech companies (Google, Twitch)
+
+### Titles & Distinctions
+- "Youngest Security Researcher of Nepal"
+- "One of the youngest security researchers globally"
+- "Youngest researcher assigned a CVE"
+- "Google hacker at age 14"
+- "#2 in Twitch's Hall of Fame"
+
+## Future Vision
+
+### Short-term Goals
+- Continue discovering and reporting significant vulnerabilities
+- Grow Arniko Hack Club membership and impact
+- Scale Glow Tech to higher revenue and more clients
+- Help more youth access cybersecurity education
+- Speak at more conferences and events
+
+### Long-term Vision
+- Become globally recognized security researcher
+- Build world-class tech community in South Asia
+- Create businesses that generate employment opportunities
+- Make cybersecurity education accessible to everyone
+- Inspire and mentor next generation of researchers
+- Put Nepal on the global tech and security map
+
+## Contact & Collaboration
+
+### For Security Research
+- Vulnerability reports and collaboration
+- Bug bounty partnerships
+- Security tool development
+- Research paper collaboration
+- Conference speaking
+
+### For Community & Education
+- Workshop facilitation
+- Mentorship programs
+- Educational content creation
+- Guest lectures and talks
+- Partnership opportunities
+
+### For Business
+- Digital marketing services (Glow Tech)
+- Startup consulting
+- Growth strategy consultation
+- Content creation and campaigns
+- Business partnerships
+
+### Contact Methods
+- Social Media: @arjanchaudharyy (Instagram, Twitter)
+- LinkedIn: linkedin.com/in/arjan-chaudhary-7a3108361
+- Website: https://arjan.lol
+
+## Why Arjan's Story Matters
+
+Arjan Chaudhary represents a new generation of tech talent - young, skilled, ethical, and impact-driven. His achievements at such a young age demonstrate that:
+
+1. **Age is not a barrier** to making significant contributions in technology and security
+2. **Youth can be leaders** in building communities and creating opportunities
+3. **Ethical hacking and responsible disclosure** are important values in security research
+4. **Developing countries like Nepal** can produce world-class tech talent
+5. **Entrepreneurship and education** can go hand-in-hand with technical excellence
+6. **Community building** can have massive impact on youth empowerment
+
+His story inspires thousands of young people in Nepal and South Asia to pursue careers in technology, security research, and entrepreneurship.
+
+---
+
+**Last Updated:** November 2024
+**For more information:** Visit https://arjan.lol
+**Contact:** @arjanchaudharyy on social media
+
+This is the official "about" page for Arjan Chaudhary.
+All information is verified and up-to-date.
